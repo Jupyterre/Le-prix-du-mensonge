@@ -101,18 +101,6 @@ img {
   background: rgba(230, 231, 228, 0.05);
 }
 
-.cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 14px 20px;
-  border-radius: 999px;
-  font-weight: 700;
-  background: #435B7B;
-  color: #E6E7E4;
-  box-shadow: 0 12px 30px rgba(67, 91, 123, 0.35);
-}
 
 .hero {
   padding: 72px 0 48px;
