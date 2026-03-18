@@ -221,7 +221,7 @@ img {
   grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .info-card {
@@ -234,22 +234,23 @@ img {
 }
 
 .info-card p {
-  margin: 0;
   color: #7C90AD;
   line-height: 1.7;
 }
 
 .kpi-row {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
+  gap: 10px;
   margin-top: 16px;
+  justify-content: space-between
 }
 
 
 .kpi {
-  padding: 22px;
+  padding: 20px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .kpi strong {
@@ -260,6 +261,7 @@ img {
 
 .kpi span {
   color: #7C90AD;
+  padding: 15px;
 }
 
 .split {
@@ -405,7 +407,6 @@ img {
 .page-hero .banner,
 .panel,
 .info-card,
-.kpi,
 .member {
   padding: 22px;
 }
