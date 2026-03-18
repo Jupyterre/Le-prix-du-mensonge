@@ -249,11 +249,14 @@ img {
 
 .kpi-row {
   display: flex;
+  flex-direction: row;
   grid-template-columns: repeat(4, 1fr);
   /* Définit la structure des colonnes dans une grille CSS + "repeat(4,1fr)" = la grille aura 4 colonnes qui se partageront équitablement l'espace disponible dans le conteneur.*/
   gap: 10px;
-  margin-top: 16px;
-  justify-content: space-between
+  margin-top: 20px;
+  padding: 0px 450px;
+  align-items: center;
+  
 }
 
 
@@ -262,6 +265,7 @@ img {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
+  max-width: 200px;
 }
 
 .kpi strong {
@@ -322,6 +326,7 @@ img {
   border: 1px solid rgba(230, 231, 228, 0.14);
   backdrop-filter: blur(10px);
   z-index: 2;
+  /*Propriété pour controler l'odre d'empilement des éléments sur la page. */
 }
 
 .page-hero {
