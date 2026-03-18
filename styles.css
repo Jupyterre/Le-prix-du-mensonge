@@ -147,6 +147,10 @@ img {
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
 }
 
+.card{
+  gap: 80%;
+}
+
 .visual-panel {
   overflow: hidden;
   position: relative;
@@ -232,6 +236,7 @@ img {
   gap: 18px;
   width: 80%;
   margin: auto;
+
 }
 
 .info-card {
@@ -410,9 +415,7 @@ img {
 
 
 
-.visual-panel {
-  min-height: 360px;
-}
+
 
 .page-hero .banner,
 .panel,
