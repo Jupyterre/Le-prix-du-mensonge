@@ -449,6 +449,7 @@ img {
   }
 
   .kpi-row {
+    display: grid;
     grid-template-columns: 1fr; /* Les KPI s'empilent verticalement */
     gap: 10px;
   }
