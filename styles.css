@@ -101,6 +101,23 @@ img {
   background: rgba(230, 231, 228, 0.05);
 }
 
+.qr-code{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.qr-code h4{
+  padding: 20px;
+}
+
+.qr-code img {
+  max-width: 100px;/* Ajuste la taille maximale du QR code */
+  width: 100%;/* S'adapte à la taille du conteneur */
+  height: auto;/* Conserve les proportions */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);/* Ajoute une ombre légère -> en mettant 0.2 à la fin*/
+  border-radius: 5px;/* Arrondit les coins */
+}
 
 .hero {
   padding: 72px 0 48px;
@@ -119,14 +136,26 @@ img {
   margin: 18px 0 18px;
 }
 
-.hero p.lead {
+.lead {
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #ffffff;
+  max-width: 58ch;
+}
+
+.hero p{
   font-size: 1.12rem;
   line-height: 1.8;
   color: #7C90AD;
   max-width: 58ch;
 }
 
-
+.texte-accroche p{
+  font-size: 1.12rem;
+  line-height: 1.8;
+  color: #ffffff;
+  max-width: 58ch;
+}
 
 .card-member {
   text-align: center;
@@ -245,18 +274,7 @@ img {
 .info-card p {
   color: #7C90AD;
   line-height: 1.7;
-}
-
-.kpi-row {
-  display: flex;
-  flex-direction: row;
-  grid-template-columns: repeat(4, 1fr);
-  /* Définit la structure des colonnes dans une grille CSS + "repeat(4,1fr)" = la grille aura 4 colonnes qui se partageront équitablement l'espace disponible dans le conteneur.*/
-  gap: 10px;
-  margin-top: 20px;
-  padding: 0px 450px;
-  align-items: center;
-  
+  /*Contrôle l'espacement entre les lignes de texte dans un élément.*/
 }
 
 
@@ -387,8 +405,7 @@ img {
 .hero-grid,
 .gallery,
 .team-grid,
-.grid-3,
-.kpi-row {
+.grid-3{
   grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr;
 }
