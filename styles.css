@@ -94,10 +94,10 @@ img {
   background: transparent;
 }
 
-.qr-code-link:hover{
+.qr-code-link:hover {
   transition: all 0.4s;
   transform: scale(1.1);
-  
+
 }
 
 .nav-links a:hover,
@@ -107,22 +107,27 @@ img {
   background: rgba(230, 231, 228, 0.05);
 }
 
-.qr-code{
+.qr-code {
   display: flex;
   justify-content: left;
   align-items: left;
 }
 
-.qr-code h4{
+.qr-code h4 {
   padding: 20px;
 }
 
 .qr-code img {
-  max-width: 100px;/* Ajuste la taille maximale du QR code */
-  width: 100%;/* S'adapte à la taille du conteneur */
-  height: auto;/* Conserve les proportions */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);/* Ajoute une ombre légère -> en mettant 0.2 à la fin*/
-  border-radius: 5px;/* Arrondit les coins */
+  max-width: 100px;
+  /* Ajuste la taille maximale du QR code */
+  width: 100%;
+  /* S'adapte à la taille du conteneur */
+  height: auto;
+  /* Conserve les proportions */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  /* Ajoute une ombre légère -> en mettant 0.2 à la fin*/
+  border-radius: 5px;
+  /* Arrondit les coins */
 }
 
 .hero {
@@ -149,14 +154,14 @@ img {
   max-width: 58ch;
 }
 
-.hero p{
+.hero p {
   font-size: 1.12rem;
   line-height: 1.8;
   color: #7C90AD;
   max-width: 58ch;
 }
 
-.texte-accroche p{
+.texte-accroche p {
   font-size: 1.12rem;
   line-height: 1.8;
   color: #ffffff;
@@ -285,7 +290,7 @@ img {
 
 
 
-.kpi{
+.kpi {
   padding: 20px;
   text-align: center;
   margin: 0 auto;
@@ -393,26 +398,17 @@ img {
 
 .hero-grid,
 .team-grid,
-.grid-3{
+.grid-3 {
   grid-template-columns: 1fr 1fr;
   grid-template-columns: 1fr;
 }
 
 .visual-panel {
-  min-height: 420px;
+  min-height: 320px;
+  max-height: auto;
 }
 
 
-.video{
-    text-align: center;
-    margin: 1rem;
- 
-    display: block;
-    width: 30%;
-    margin-top: 2rem;
-    margin-left: 25px;
-    float: left;
-}
 
 
 .nav {
@@ -426,15 +422,34 @@ img {
 }
 
 
+.video {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+  border: 3px solid black;
+  text-align: center;
+  margin: 1rem;
+  vertical-align: top;
+  display: flex;
+  float: left;
+  margin-top: 2rem;
+  margin-left: 25px;
 
+}
 
+.align-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.affiche-position {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .page-hero .banner,
 .panel,
 .member {
   padding: 22px;
 }
-
-
-
-
