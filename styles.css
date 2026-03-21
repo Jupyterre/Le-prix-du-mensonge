@@ -94,6 +94,12 @@ img {
   background: transparent;
 }
 
+.qr-code-link:hover{
+  transition: all 0.4s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .nav-links a:hover,
 .nav-links a.active {
   color: #E6E7E4;
