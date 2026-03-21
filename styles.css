@@ -337,21 +337,7 @@ img {
   flex-wrap: wrap;
 }
 
-.overlay-2 {
-  z-index: 1;
-}
 
-.overlay {
-  position: absolute;
-  inset: auto 18px 220px 20px;
-  padding: 16px 18px;
-  border-radius: 20px;
-  background: rgba(28, 38, 61, 0.82);
-  border: 1px solid rgba(230, 231, 228, 0.14);
-  backdrop-filter: blur(10px);
-  z-index: 2;
-  /*Propriété pour controler l'odre d'empilement des éléments sur la page. */
-}
 
 .page-hero {
   padding: 54px 0 24px;
@@ -396,9 +382,6 @@ img {
   color: #E6E7E4;
 }
 
-.Ambiance-backstage {
-  color: #7C90AD;
-}
 
 .notice {
   padding: 20px;
@@ -409,7 +392,6 @@ img {
 
 
 .hero-grid,
-.gallery,
 .team-grid,
 .grid-3{
   grid-template-columns: 1fr 1fr;
@@ -421,9 +403,15 @@ img {
 }
 
 
-.gallery {
-  grid-row: auto;
-  min-height: 360px;
+.video{
+    text-align: center;
+    margin: 1rem;
+ 
+    display: block;
+    width: 30%;
+    margin-top: 2rem;
+    margin-left: 25px;
+    float: left;
 }
 
 
