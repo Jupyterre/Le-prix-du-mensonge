@@ -38,6 +38,10 @@ img {
   border-bottom: 1px solid rgba(230, 231, 228, 0.14);
 }
 
+.scanne{
+  color: rgb(173, 33, 33);
+}
+
 .nav {
   display: flex;
   align-items: center;
