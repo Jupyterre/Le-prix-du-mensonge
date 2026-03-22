@@ -423,3 +423,91 @@ img {
 .member {
   padding: 22px;
 }
+
+/*tout ce qu'il y a en bas c'est pour adapter aux écrans de téléphone.*/
+
+/* Styles pour les écrans de téléphone */
+@media (max-width: 768px) {
+  /* Ajuster le conteneur principal */
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  /* Barre de navigation */
+  .nav {
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column; /* Les liens de navigation deviennent verticaux */
+    gap: 5px;
+  }
+
+  .nav-links a {
+    padding: 10px;
+    text-align: center;
+    width: 100%; /* Les liens prennent toute la largeur */
+  }
+
+  /* Section Hero */
+  .hero-grid {
+    grid-template-columns: 1fr; /* Une seule colonne */
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem; /* Réduire la taille du texte */
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
+
+  /* Affiche (visual-panel) */
+  .visual-panel {
+    position: static; /* Supprime le positionnement absolu */
+    margin: 0 auto; /* Centre l'affiche */
+    width: 90%; /* Réduit la largeur */
+    height: auto; /* Ajuste la hauteur automatiquement */
+  }
+
+  .visual-panel img.poster {
+    width: 100%; /* L'image occupe toute la largeur */
+    height: auto; /* Conserve les proportions */
+  }
+
+  /* Vidéos */
+  .align-video {
+    flex-direction: column; /* Les vidéos s'empilent verticalement */
+    align-items: center;
+  }
+
+  .video {
+    width: 100%; /* Les vidéos occupent toute la largeur */
+    height: auto; /* Ajuste la hauteur automatiquement */
+  }
+
+  /* Cartes (cards) */
+  .grid-3 {
+    grid-template-columns: 1fr; /* Une seule colonne */
+    gap: 20px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  /* Footer */
+  .footer-inner {
+    flex-direction: column; /* Empile les éléments du footer */
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer .back-top {
+    margin-top: 10px;
+  }
+}
