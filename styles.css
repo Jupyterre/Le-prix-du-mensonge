@@ -192,8 +192,8 @@ img {
 
 .visual-panel {
   position: absolute; /* Permet de positionner l'élément par rapport à la page */
-  top: 100px; /* Distance par rapport au haut de la page pour éviter la barre de navigation */
-  right: 20px; /* Distance par rapport au bord droit */
+  top: 200px; /* Distance par rapport au haut de la page pour éviter la barre de navigation */
+  right: 140px; /* Distance par rapport au bord droit */
   background: rgba(28, 38, 61, 0.82);
   border: 1px solid rgba(230, 231, 228, 0.14);
   border-radius: 24px;
@@ -202,8 +202,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 300px; /* Largeur fixe */
-  height: 450px; /* Hauteur fixe */
+  width: 400px; /* Largeur fixe */
+  height: 550px; /* Hauteur fixe */
   z-index: 10; /* Assure que l'affiche est au-dessus des autres éléments */
 }
 
