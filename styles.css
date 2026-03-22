@@ -209,7 +209,7 @@ img {
 
 .visual-panel img.poster {
   width: 100%; /* L'image occupe toute la largeur */
-  height: 100%; /* L'image occupe toute la hauteur */
+  height: auto; /* L'image occupe toute la hauteur */
   object-fit: cover; /* Ajuste l'image pour couvrir tout le conteneur */
   border-radius: 5px;
   box-shadow: 0px 0px 60px rgb(0, 0, 0);
