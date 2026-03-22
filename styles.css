@@ -191,35 +191,28 @@ img {
 }
 
 .visual-panel {
+  position: absolute; /* Permet de positionner l'élément par rapport à la page */
+  top: 100px; /* Distance par rapport au haut de la page pour éviter la barre de navigation */
+  right: 20px; /* Distance par rapport au bord droit */
   background: rgba(28, 38, 61, 0.82);
   border: 1px solid rgba(230, 231, 228, 0.14);
   border-radius: 24px;
   box-shadow: 0 18px 60px rgba(0, 0, 0, 0.28);
   overflow: hidden;
-  position: relative;
-  min-height: 260px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0;
-  min-height: auto;
-  width: 50%;
-  height: 50%;
-  min-height: 320px;
-  max-height: auto;
+  width: 300px; /* Largeur fixe */
+  height: 450px; /* Hauteur fixe */
+  z-index: 10; /* Assure que l'affiche est au-dessus des autres éléments */
 }
 
 .visual-panel img.poster {
-  position: relative;
-  inset: 0;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  opacity: 1;
+  width: 100%; /* L'image occupe toute la largeur */
+  height: 100%; /* L'image occupe toute la hauteur */
+  object-fit: cover; /* Ajuste l'image pour couvrir tout le conteneur */
+  border-radius: 5px;
   box-shadow: 0px 0px 60px rgb(0, 0, 0);
-  width: 50%;
 }
 
 .visual-panel::after {
